@@ -57,6 +57,9 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        header: {
+          DEFAULT: "#f0b530",
+        },
       },
       keyframes: {
         "fade-up": {
