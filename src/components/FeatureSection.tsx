@@ -30,7 +30,7 @@ export const FeatureSection = ({
             <img
               src={imageSrc}
               alt={imageAlt}
-              className="rounded-2xl shadow-xl animate-fade-in"
+              className="rounded-2xl shadow-xl animate-fade-in w-full max-w-md mx-auto"
               loading="lazy"
             />
           </div>

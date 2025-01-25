@@ -12,7 +12,7 @@ const Index = () => {
       <FeatureSection
         title="Cook with Love"
         description="Discover recipes that bring families together. Our curated collection of dishes helps create memorable moments around the dinner table."
-        imageSrc="/lovable-uploads/c0bc8295-d971-4cc1-b58a-d95fbc3d39d9.png"
+        imageSrc="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
         imageAlt="Family cooking together"
         buttonText="Explore Recipes"
       />
@@ -20,7 +20,7 @@ const Index = () => {
       <FeatureSection
         title="Share the Joy"
         description="Join our community of food lovers. Share your recipes, tips, and culinary adventures with fellow cooking enthusiasts."
-        imageSrc="/placeholder.svg"
+        imageSrc="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
         imageAlt="Community sharing recipes"
         buttonText="Join Community"
         reverse
