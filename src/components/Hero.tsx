@@ -2,7 +2,7 @@ import { SearchBar } from "./SearchBar";
 
 export const Hero = () => {
   return (
-    <section className="relative mt-24 mb-16 mx-auto max-w-[1400px] h-[500px] bg-background rounded-xl overflow-hidden">
+    <section className="relative mt-24 mb-16 mx-auto w-[80%] h-[500px] bg-header rounded-xl overflow-hidden">
       {/* Hero Image */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center"
