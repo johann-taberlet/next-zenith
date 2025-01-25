@@ -19,6 +19,16 @@ export default {
     },
     extend: {
       colors: {
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: {
+          DEFAULT: "#FEF7E6",
+          secondary: "#FFF9EA",
+        },
+        foreground: {
+          DEFAULT: "hsl(var(--foreground))",
+        },
         primary: {
           DEFAULT: "#E85D3F",
           foreground: "#FFFFFF",
@@ -27,13 +37,25 @@ export default {
           DEFAULT: "#4A3427",
           foreground: "#FFFFFF",
         },
-        background: {
-          DEFAULT: "#FEF7E6",
-          secondary: "#FFF9EA",
-        },
         accent: {
           DEFAULT: "#F4D03F",
           foreground: "#4A3427",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
         },
       },
       keyframes: {
@@ -59,6 +81,11 @@ export default {
       animation: {
         "fade-up": "fade-up 0.5s ease-out forwards",
         "fade-in": "fade-in 0.3s ease-out forwards",
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
     },
   },
